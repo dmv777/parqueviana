@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap');
+h1,h2{
+    font-family: montserrat;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Lato;
+
+}
+header{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-color: #0d2345;
+    z-index: 1;
+    
+
+}
+
+
+header img{
+    left: 2%;
+    top: 5%;
+    position: absolute;
+    height: 80%;
+    width: 8%;
+    
+   
+}
+header div{
+    
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+#nav{
+    font-size: 20px;
+    position: relative;
+    left: 2%;
+    bottom: 5%;
+}
+#titulo{
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+}
+#perfil{
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   margin-left: 480px;
+}
+
+#terminal{
+    z-index: -100000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    
+}
+#quadrados{
+    margin-top: 230px;
+    width: 400px;
+    height: 200px;
+   
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+    font-size: 20px;
+    margin-left: 50px;
+}
+#quadrados p{
+    padding: 20px 50px 50px 30px;
+}
+
+#preto{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1000;
+    opacity: 0.5;
+}
+#azulao{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(64, 79, 101);
+}
+#você{
+    color: white;
+    background-color:#0d2345;
+    position: relative;
+    top: 15%;
+    width: 200px;
+    height: 50px;
+    left: 45%;
+    text-align: center;
+    font-size: 20px;
+
+}
+#você p{
+    padding-top: 10px;
+}
+#no{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    width: 800px;
+    text-align: justify;
+    top: 28%;
+    left: 25%;
+}
+#retangulos > div{
+    background-color: #988f2e;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: 150px;
+} 
+#retangulos > div > h2{
+    margin: 10px 0 15px 50px;
+    text-align: center;
+    background-color:#0d2345;
+    width: 150px;
+    height: 50px;
+    padding-top: 5px;
+}
+#retangulos > div > p{
+    font-size: 25px;
+    margin: 10px;
+}
+#erro{
+    position: absolute;
+    top: 140.5%;
+    left: 60%;
+}
+footer{
+    background-color: #0d2345;
+}
+footer h2{
+    margin-left: 50px;
+}
+#mensagem{
+    height: 100px;
+}
+input, textarea{
+    color: black;
+    border: 2px solid #988f2e;
+    
+}
+form{
+    margin-left: 50px;
+    
+}
+iframe{
+    margin: 50px 0 100px 450px;
+}
+footer img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 85%;
+    top: 270%;
+}

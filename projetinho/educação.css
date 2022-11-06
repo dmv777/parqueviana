@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-color: #0d2345;
+    z-index: 1;
+    
+
+}
+
+
+header img{
+    left: 2%;
+    top: 5%;
+    position: absolute;
+    height: 80%;
+    width: 8%;
+    
+   
+}
+header div{
+    
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+#nav{
+    font-size: 25px;
+    position: relative;
+    left: 2%;
+    bottom: 5%;
+}
+#titulo{
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+}
+#perfil{
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   margin-left: 545px;
+}
+#escola{
+    background-color: #404f65;
+    width: 650px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 300px;
+    font-size: 25px;
+    text-align: justify;
+}
+#escola > p{
+    padding: 50px 20px 0 20px;
+}
+#escolaimg{
+    position: absolute;
+    width: 650px;
+    z-index: -100;
+    height: 350px;
+    top: 25%;
+    left: 45%;
+}
+#gilberto{
+    background-color: #404f65ce;
+    height: 50px;
+    width: 235px;
+    margin-left: 1050px;
+    color: white;
+    text-align: center;
+}
+#gilberto > p{
+    padding-top: 10px;
+}
+
+#incentivo{
+   background-color: #0d2345; 
+   height: 50px;
+   width: 300px;
+   margin-left: 40%;
+}
+#incentivo > h2{
+    padding: 15px 0 0 45px;
+}
+#textodiferente{
+    color: black;
+    font-size: 25px;
+    margin: 0 50px 0 50px ;
+    text-align: justify;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+.imagens > img{
+    width: 500px;
+}
+.imagens> video{
+    width: 500px;
+}
+.legendas{
+    background-color:#404f65c0;
+    color: white;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 195%;
+}
+#centro{
+    right: 13%;
+    text-align: center;
+}
+#arena{
+    left: 13%;
+    text-align: center;
+}
+#arena>h2{
+    padding-top: 10px;
+}
+#azulao{
+    background-color:#404f65;
+    height: 700px;
+}
+#azulao >img{
+    width: 500px;
+    display: inline-block;
+    margin: 100px 150px 0 50px;
+}
+#azulao > p{
+    display: inline-block;
+    width: 500px;
+    font-size: 23px;
+    height: 500px;
+    margin-top: 100px;
+    text-align: justify;
+}
+#azulao > ul{
+    position: absolute;
+    right: 33%;
+    top: 298%;
+}
+footer{
+    background-color: #0d2345;
+}
+footer h2{
+    margin-left: 50px;
+}
+#mensagem{
+    height: 100px;
+}
+input, textarea{
+    color: black;
+    border: 2px solid #988f2e;
+    
+}
+form{
+    margin-left: 50px;
+    
+}
+iframe{
+    margin: 50px 0 100px 450px;
+}
+footer img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 85%;
+    top: 335%;
+}

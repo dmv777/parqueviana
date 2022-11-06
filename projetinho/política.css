@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-color: #0d2345;
+    z-index: 1;
+    
+
+}
+
+
+header img{
+    left: 2%;
+    top: 5%;
+    position: absolute;
+    height: 80%;
+    width: 8%;
+    
+   
+}
+header div{
+    
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+#nav{
+    font-size: 25px;
+    position: relative;
+    left: 2%;
+    bottom: 5%;
+}
+#titulo{
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+}
+#perfil{
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   margin-left: 545px;
+}
+.titulos{
+    background-color: #0d2345;
+    width: 400px;
+    font-size: 20px;
+    height: 70px;
+    text-align: center;
+    margin-left: 35%;
+}
+.titulos  h2{
+    padding-top: 15px;
+}
+.vereadores{
+    margin-left: 100px;
+    font-size: 20px;
+    display: inline-block;
+    width: 500px;
+}
+.vereadores p, li{
+    color: black;
+}
+.vereadores p{
+    font-weight: bolder;
+}
+#dourado{
+    display: inline-block;
+    width: 550px;
+    background-color: #988f2e;
+    height: 500px;
+    margin-left: 100px;
+}
+#furlan{
+    width: 450px;
+    position: absolute;
+    right: 8%;
+    top: 48%;
+}
+#azulzinho{
+    background-color: #404f65;
+}
+#azulzinho p{
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    height: 300px;
+    margin-left: 150px;
+}
+#azulzinho h2{
+    background-color: #988f2e;
+    width: 400px;
+    font-size: 23px;
+    height: 50px;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.camara{
+    display: inline-block;
+}
+.camara img{
+    width: 500px;
+    margin-left: 100px; 
+    
+}
+.overlay{
+    position: absolute;
+    top: 234%;
+    left: 7.7%;
+    width: 500px;
+    height: 354px;
+    opacity: 0;
+    background-color: blue;
+}
+.overlay:hover{
+    opacity: 0.7;
+    transition: 3s;
+
+}
+.text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
+#gestor{
+    color: black;
+    font-size: 18px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 100px;
+}
+footer{
+    background-color: #0d2345;
+}
+footer h2{
+    margin-left: 50px;
+}
+#mensagem{
+    height: 100px;
+}
+input, textarea{
+    color: black;
+    border: 2px solid #988f2e;
+    
+}
+form{
+    margin-left: 50px;
+    
+}
+iframe{
+    margin: 50px 0 100px 450px;
+}
+footer img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 85%;
+    top: 300%;
+}
